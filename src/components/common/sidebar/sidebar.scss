@@ -1,0 +1,24 @@
+.sidebar {
+	// display: none;
+
+	position: absolute;
+  	top: 60px;
+  	left: -300px;
+  	height: 100%;
+ 	width: 300px;
+  	transition: left .3s ease-in-out;
+
+	// position: fixed;
+	// top: 0;
+	// left: -400px;
+	// width: 400px;
+	// height: 100vh;
+	// background: #FFFFFF;
+	// z-index: 101;
+	// padding-right: 60px;
+	// padding-top: 87px;
+	// padding-left: 50px;
+}
+.sidebar.open {
+	left: 0;
+}

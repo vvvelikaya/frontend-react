@@ -1,0 +1,39 @@
+@import '/src/assets/sass/variables';
+
+.user-info {
+    width: 50%;
+    margin: 10px auto;
+
+    form {
+        background: $form-background;
+        padding: 5px 10px 25px 10px;
+        border-radius: 5px;
+    }
+    
+    
+    input {
+        width: 90%;
+        height: 2em;
+        border: none;
+        border-radius: 5px;
+     
+        padding-left: 0.5em;
+        background-color:$input-background;
+    }
+    
+    label {
+        display: block;
+        padding-top: 1.5em;
+        padding-bottom: 1em;
+    }
+}
+
+.user-info__data {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    &-split{
+        display: grid;
+        grid-template-columns: 24% 24% 2% 50%;
+    }
+}
